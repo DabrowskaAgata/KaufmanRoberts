@@ -55,6 +55,8 @@ a = [[0.4, 1], [3, 5]]
 t = [[1, 2], [3, 4]]    
 for ai in a:
     for ti in t:
+        print("M= ", M)
+        print("V= ", V)
         print("ai= ", ai)
         print("ti= ", ti)
         calc_all(M, V, ti, ai)
